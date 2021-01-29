@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app"
+  description: "test-app"
+  annotations:
+    github.com/project-slug: backstage-01/test-02
+    backstage.io/techdocs-ref: url:https://github.com/backstage-01/test-02
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "alexgorbatchev"
